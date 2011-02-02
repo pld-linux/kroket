@@ -9,6 +9,7 @@ Source0:	http://nbenoit.tuxfamily.org/projects/kroket/%{name}-%{version}.tar.bz2
 # Source0-md5:	e9def3bcb329a6642453dac1956798fd
 URL:		http://nbenoit.tuxfamily.org/index.php?page=Kroket
 BuildRequires:	QtCore-devel
+BuildRequires:	QtGui-devel
 BuildRequires:	qt4-build >= 4.3.3-3
 BuildRequires:	qt4-qmake >= 4.3.3-3
 BuildRequires:	rpmbuild(macros) >= 1.129
